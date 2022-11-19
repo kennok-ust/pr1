@@ -1,0 +1,46 @@
+.slider{
+    padding: 0;
+    margin: 0;
+    margin-top: 120px;
+    box-sizing: border-box;
+}
+.slider_container{
+    width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    height: 600px;
+}
+.slider_container img{
+    display: block;
+    width: 100%;
+    min-width: 100%;
+}
+.slider_slide{
+    display: flex;
+    height: 600px;
+    
+}
+.btn{
+    padding: 20px 30px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    font-size: 50px;
+    cursor: pointer;
+    outline: 0;
+    border: 0;
+    position: absolute;
+    top: 360px;
+    transition: 0.4s;
+}
+.btn:hover{
+    background: rgba(255, 255, 255, 0.4);
+}
+.animation{
+    transition: 1.5s all ease-in-out;
+}
+.btn_right{
+    right: 370px;
+}
+.btn_left{
+    left: 370px;
+}
